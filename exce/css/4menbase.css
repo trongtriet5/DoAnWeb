@@ -1,0 +1,50 @@
+:root {
+    --whitecolor: #fff;
+    --blackcolor: #000;
+    --textcolor: #333;
+    --footerhovercolor: #ee4d2d;
+    --bordercolor: #dbdbdb;
+    --headerheight: 80px;
+    --navbarheight: 34px;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes header_notiGrowth {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes roll {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
